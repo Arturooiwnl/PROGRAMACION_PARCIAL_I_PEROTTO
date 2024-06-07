@@ -38,10 +38,10 @@ def leer_csv(archivo_entrada):
             bici['id_bike'] = int(id_bike)
             bici['nombre'] = nombre
             bici['tipo'] = tipo
-            bici['tiempo'] = int(tiempo)  # Convertir tiempo a entero
+            bici['tiempo'] = int(tiempo) 
             lista.append(bici)
     
-    return lista  # Retornar la lista de bicicletas
+    return lista  
 
 def guardar_posiciones_en_json(archivo, nombre_archivo_salida):
     """
